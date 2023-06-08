@@ -1,92 +1,296 @@
-*{
-  margin: 0%;
-  padding: 0%;
- 
-.parent{
-  text-align: center;
-  background-color: crimson;
-  color: aliceblue;
-  height: 100vh;
-  width: 100%;
-  padding : 20px;
-  overflow-y: scroll;
-}
-  
-}
-#input[type=text]{
-  margin: 20px;
-  width: 60%;
-  height: 5vh;
-  background-color: aliceblue;
-   border-radius:  10px; 
-  padding: 5px;
-  display: inline-block;
-  border: 1px solid white;
+/* 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
-}
-#button{
-  margin-left: 10px;
-  background-color: crimson;
-  color: aliceblue;
-  border-radius:10px;
-  padding-top: 10px ;
-  padding-bottom: 10px;
-  border-style: bold;
-  border-color: aliceblue;
-  font-weight: bold;
-  width: 15%;
-
 }
 
-.header{
+html {
+  font-size: 10px;
+}
+
+body {
+  background: linear-gradient(135deg, #153677, #4e085f);
   width: 100%;
-  padding: 12px 20px;
-  color:aliceblue;
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.List-heading{
-  color: aliceblue;
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: left;
-  width: 60%;
-
+.main-div {
+  max-width: 100%;
+  width: 540px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.listData{
-  color: aliceblue;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 10px;
-  width: 45%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-radius: 10px;
-}
-
-.btn-position{
-  position: relative;
-
-
-}
-#btn{
-  color: aliceblue;
-  background-color: crimson;
-  margin: auto;
-  padding: 5px;
-  border-radius: 10px;
-  border-color: aliceblue;
-}
-
-#remove{
-  color: aliceblue;
-  background-color: crimson;
+.center-div {
+  text-align: center;
+  color: #333;
+  background: #f74646;
   margin: 20px;
-  padding: 5px;
-  border-radius: 10px;
-  border-color: aliceblue;
-  
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
 }
+
+#inputry {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+#button {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  color: #f74646;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.List-heading {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.listData {
+  flex: 1;
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: left;
+}
+
+#btn {
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: #f74646;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#remove {
+  color: #f74646;
+  background-color: white;
+  display: block;
+  margin: 16px auto;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 32px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  padding: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .center-div {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #inputry {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  #button {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .List-heading {
+    font-size: 18px;
+  }
+  
+  .listData {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  #btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  #remove {
+    font-size: 14px;
+    padding: 12px;
+  }
+} */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 20px;
+}
+
+.main-div {
+  max-width: 100%;
+  width: 540px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.center-div {
+  text-align: center;
+  color: #333;
+  background: #f74646;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+#inputry {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+#button {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  color: #f74646;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.List-heading {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.list-item {
+  /* display: flex; */
+  align-items: center;
+  justify-content: flex-start; /* Adjust alignment to starting point */
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.listData {
+  flex: 1;
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 18px; /* Increase the font size */
+  text-align: left;
+}
+
+#btn {
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: #f74646;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#remove {
+  display: block;
+  margin: 16px auto;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 32px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  color: tomato;
+}
+@media only screen and (max-width: 768px) {
+  .center-div {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #inputry {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  #button {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .List-heading {
+    font-size: 18px;
+  }
+  
+  .listData {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  #btn {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  #remove {
+    font-size: 14px;
+    padding: 12px;
+  }}
+
+  .container{
+    text-align: center;
+  }
